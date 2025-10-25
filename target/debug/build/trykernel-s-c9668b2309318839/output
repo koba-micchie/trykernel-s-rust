@@ -1,0 +1,3 @@
+cargo:rustc-link-search=native=/home/michihiro/trykernel-s/target/debug/build/trykernel-s-c9668b2309318839/out
+cargo:rustc-link-lib=static=asm
+cargo:rustc-link-arg=-Tsrc/linker/pico_memmap.ld
